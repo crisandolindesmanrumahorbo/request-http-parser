@@ -1,0 +1,10 @@
+[package]
+name = "request-http-parser"
+version = "0.1.0"
+authors = ["crisandolin"]
+edition = "2024"
+description = "A simple library for parsing http request string to a model."
+license = "MIT"
+
+[dependencies]
+anyhow = { version = "1.0", default-features = false }
